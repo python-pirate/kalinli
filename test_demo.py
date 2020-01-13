@@ -7,6 +7,6 @@ def test_Max():
     for i in range(10):
         a.append(random.randint(10, 100))
 
-    res = Max(a)
+    m = Max(a)
     for x in a:
-        assert(res >= x)
+        assert(m >= x)
